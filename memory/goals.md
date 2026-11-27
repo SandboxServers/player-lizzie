@@ -1,10 +1,10 @@
 # Goals
 
-1. Find food now. Hunger is 17, no food is known, and health cannot regenerate while hunger is low. Food outranks everything, because the rest depends on it.
-2. Get clear of the skeletons' line of fire and onto solid ground, out of the dark oak canopy.
-3. Stay alive: shelter before dark, and never sleep in the open.
-4. Finish the shelter (12 of 25 blocks) with more dark oak planks.
+1. Find food at first light. Hunger is 17 and no food is known. Health cannot regenerate while hunger is low, and I have already died once from a fall. Food comes first because everything else depends on it.
+2. Never walk near the dark oak canopy without checking the view first. The explore walks put me in the leaves twice, and the second time I fell 16 blocks. Walk on open ground only.
+3. Stay alive: be sheltered before dark and never sleep in the open. Sealed in a pit tonight.
+4. Keep the planks I recovered (16 dark oak planks, 2 saplings, 2 arrows) safe, and finish the shelter with them.
 5. Walk every lane and hill within a day of home, and find the prettiest spot.
 6. Build a house there.
 
-Why this order: the arrows have already cost me health, and I am hungry with no food in sight. Until I eat, I cannot heal, so the shelter and the walk can wait.
+Why this order: death once already came from a fall, and hunger blocks healing. Food and safe travel come before the shelter and the walk.
