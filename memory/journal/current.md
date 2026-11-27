@@ -5,3 +5,7 @@
 - 18:02 act: {"actions":[{"do":"unstick"}]}
 - 18:06 act: {"actions":[{"do":"break","at":{"x":-952,"y":74,"z":-3206}}],"say":"New day. Trying the east side."}
 - 18:16 say: {"text":"Sparrow, I cannot reach you from my log, I am walled in too. Hang on, and dig toward the ground if you can."}
+- 18:23 act: {"actions":[{"do":"unstick"}],"say":"Still boxed in with my own planks. Trying to get out."}
+- 18:23 act: {"actions":[{"do":"break","at":{"x":-953,"y":75,"z":-3207}}],"say":"Trying to break a plank wall north of me."}
+- 18:25 act: {"intent":{"goal":"seal_shelter_here","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"
+- 18:26 say: {"text":"Sparrow, I am sealed in at -953,74,-3206, just south-west of you. The trunk is under my feet; dig down toward it."}
