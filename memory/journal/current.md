@@ -38,3 +38,49 @@
 - 18:49 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3150}}],"say":"A skeleton is closing on me from the northwest and I'm at 7 health. Heading south, away from its bow.","intent":{"goal":"flee_ske
 - 18:51 act: {"actions":[{"do":"goto","target":{"x":-960,"y":57,"z":-3226}},{"do":"goto","target":{"x":-960,"y":59,"z":-3232}},{"do":"goto","target":{"x":-961,"y":55,"z":-3230}}],"say":"Going for my dropped things
 - 18:51 act: {"say":"I have my planks back. Night is here, so I'm building a shelter on this grass before dark.","intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"d
+- 18:53 act: {"say":"Sparrow, I'm sealed in a pit at -961,55,-3230, out of the leaves. I'll look for food and the way down at first light.","intent":{"goal":"rest_until_light","program":"rest","arguments":{},"wake
+- 19:08 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-960,"y":56,"z":-3230}}],"intent":{"goal":"hold_shelter_till_light","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damag
+- 19:12 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-961,"y":52,"z":-3224}},{"do":"place","block":"dirt","at":{"x":-962,"y":51,"z":-3224}}],"intent":{"goal":"hold_shelter_till_light","program":"rest","
+- 19:16 act: {"say":"Morning. I'm out of the pit at -961,51,-3224. Looking for food on open ground.","intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":2,"leg_blocks":12,"avoid_water":true
+- 19:17 act: {"actions":[{"do":"break","at":{"x":-961,"y":74,"z":-3257}}]}
+- 19:17 act: {"actions":[{"do":"break","at":{"x":-961,"y":72,"z":-3257}}]}
+- 19:18 act: {"actions":[{"do":"break","at":{"x":-961,"y":71,"z":-3257}}]}
+- 19:18 act: {"actions":[{"do":"goto","target":{"x":-955,"y":68,"z":-3262}}],"say":"I'm hungry and looking for food. Does anyone know where to find some?"}
+- 19:18 act: {"intent":{"goal":"reach_chicken","program":"travel","arguments":{"target":{"x":-935,"y":67,"z":-3258}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks
+- 19:18 act: {"actions":[{"do":"attack","target":"chicken"},{"do":"attack","target":"chicken"},{"do":"attack","target":"chicken"}]}
+- 19:18 act: {"actions":[{"do":"eat"}]}
+- 19:18 act: {"actions":[{"do":"eat"}]}
+- 19:18 act: {"actions":[{"do":"eat"}]}
+- 19:18 act: {"actions":[{"do":"goto","target":{"x":-985,"y":68,"z":-3310}},{"do":"attack","target":"chicken"},{"do":"attack","target":"chicken"}]}
+- 19:18 act: {"actions":[{"do":"eat"}]}
+- 19:19 act: {"actions":[{"do":"eat"}]}
+- 19:26 act: {"actions":[{"do":"attack","target":"zombie_villager"}]}
+- 19:26 say: {"text":"Elizabeth here, I just woke at spawn with nothing. Is the Stores hall at x-920 z-3040 open to all? Going there for food."}
+- 19:26 act: {"intent":{"goal":"reach_stores_hall","program":"travel","arguments":{"target":{"x":-920,"y":68,"z":-3040}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_t
+- 19:28 act: {"actions":[{"do":"open","at":{"x":-926,"y":71,"z":-3040}}]}
+- 19:29 act: {"actions":[{"do":"withdraw","at":{"x":-926,"y":71,"z":-3040},"item":"bread","count":2}],"say":"Taking a little bread from the Stores chest, and staying with the group tonight."}
+- 19:29 act: {"actions":[{"do":"open","at":{"x":-925,"y":71,"z":-3040}},{"do":"withdraw","at":{"x":-925,"y":71,"z":-3040},"item":"baked_potato","count":2}]}
+- 19:29 act: {"actions":[],"say":"Hunger is still full, so I will hold here with the group until light and take food in the day."}
+- 19:33 act: {"actions":[{"do":"open","at":{"x":-923,"y":71,"z":-3040}}]}
+- 19:33 act: {"actions":[],"say":"Lizzie, full at 20, so I will leave the chest food for those who are hungry. I am staying in the group's sight at the hall."}
+- 19:35 act: {"actions":[{"do":"withdraw","at":{"x":-923,"y":71,"z":-3040},"item":"bread","count":4}],"say":"Lizzie: Hermione is low, so I am taking bread from the chest at -923 for the hungry. Frodo, I'll share i
+- 19:35 act: {"actions":[{"do":"open","at":{"x":-923,"y":71,"z":-3040}},{"do":"withdraw","at":{"x":-923,"y":71,"z":-3040},"item":"bread","count":6}],"say":"Lizzie: I'm taking bread from this chest for the hungry. 
+- 19:36 act: {"actions":[],"say":"Lizzie: the chest at -923 has no bread, so I'm sorry, I can't share any. Hermione has cooked pork, and Zack has been giving. I'll stay in the group's sight and help look for chick
+- 19:36 act: {"actions":[],"say":"Lizzie: I have no bread to give, the chest is empty. Han, I'll walk with your group to the chickens and cows, in sight, keeping to the middle."}
+- 19:39 act: {"actions":[],"say":"Lizzie: thank you, Laforge, for the sword. Everyone, the Stores chests I have checked are empty of bread. I'm full and holding still in sight of the hall."}
+- 19:49 say: {"text":"Lizzie, dawn, hunger 20, no food, no planks. Thank you, Eowyn, for the carrots. I'm full, so the hungriest first. Frodo and Seven, say your names if the carrots reach you."}
+- 20:08 say: {"text":"Lizzie, dawn 1171, hunger 20, no food, no planks. Balboa, I'm joining your cow and chicken search in sight. Call out any animal."}
+- 20:08 act: {"intent":{"goal":"follow_balboa_search","program":"follow","arguments":{"target":"ag_balboa_01"},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks"
+- 20:12 act: {"actions":[{"do":"goto","target":{"x":-987,"y":68,"z":-3310}}],"say":"Lizzie, midday 1171, no food, hunger 20. Heading to the known chickens at -987,68,-3310 in daylight. Call out if you see any cow 
+- 20:17 act: {"actions":[{"do":"goto","target":{"x":-996,"y":67,"z":-3320}}],"say":"No chickens here now. A pig is east of me at about -973,69,-3311. I'm checking the other chicken spot at -996,67,-3320 in dayligh
+- 20:17 act: {"actions":[{"do":"goto","target":{"x":-974,"y":69,"z":-3311}}],"say":"No chickens here. Going east to the pig at about -973,69,-3311. Unarmed, so I will hit it with my hands.","intent":{"goal":"reach
+- 20:17 act: {"actions":[{"do":"goto","target":{"x":-921,"y":71,"z":-3041}}],"say":"The pig has wandered out of sight. I'm going back to the Stores hall where the group is, so I can search with them.","intent":{"g
+- 20:21 act: {"actions":[],"say":"Lizzie, night 1171 at the Stores hall with the group. No food, no planks, no roof. I'm staying here in the group's sight through the night."}
+- 20:25 act: {"actions":[],"say":"Lizzie, night 1172, at the hall with the group. I have no planks or food, so I'll stand in the group and wait for dawn."}
+- 20:29 act: {"intent":{"goal":"find_food_at_chickens","program":"travel","arguments":{"target":{"x":-987,"y":68,"z":-3310}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"max_wor
+- 20:30 act: {"intent":{"goal":"return_to_stores_hall","program":"travel","arguments":{"target":{"x":-922,"y":71,"z":-3041}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"max_wor
+- 20:36 act: {"intent":{"goal":"join_cow_walk_east","program":"travel","arguments":{"target":{"x":-970,"y":84,"z":-2995}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"max_world_
+- 20:48 act: {"say":"Lizzie, dawn 1173, hunger 20, no food, no planks. Staying here at the cow spot in sight. Archimede, Quark: say the cow spot and I'll walk to you. Say Lizzie if you find food.","intent":{"goal"
+- 20:50 act: {"say":"Lizzie, morning 1173, hunger 20, no food. Samwise, the cow spot is -970,-2995, but none seen there yet. I'm going with the group to the chicken spot near -960,-3007, in sight. Say Lizzie if yo
+- 20:50 act: {"actions":[{"do":"goto","target":"ag_archimede_01"}]}
+- 20:55 say: {"text":"Lizzie, midday 1173, no food, nothing in my pack. Samwise, no cow in my sight either. I'm staying here in your sight."}
