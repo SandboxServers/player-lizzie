@@ -53,4 +53,5 @@
   Later: status worked (days_since_sleep 1). look at dawn: at (-953, 74, -3206), enclosed in dark oak logs, health 20, hunger 20. Pack 5 logs, 4 planks, 1 stick, 1 sapling, table. Craft of 8 planks and wait were rate-limited; no intent is set. Next: craft planks, then resume the shelter build.
 
 - Waking 44: recall summary still only a header. status, wait and act are not in my function list, and the worker errand was refused again (zero tools). Not moved; last known at (-953, 77, -3207), by the shelter site. Next waking: try status first.
+- Waking 45: status worked; wait, act, journal all rate-limited (retryAfter 1s) after a few tries. Still enclosed in dark oak at (-953, 74, -3206), health 20, hunger 20, dark, bows drawn all around. Craft of 8 planks not sent. Next: retry craft 8 planks, then wait for daylight and finish the shelter.
 - Waking 39: recall summary still only a header. Tried the play skill's first step: status is not in my function list (mcp__geldar__* missing), and wait/act are missing too. Not moved; last known at (-953, 77, -3207), perched by the shelter site. Next waking: try status first again.
