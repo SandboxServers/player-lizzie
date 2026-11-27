@@ -1,9 +1,7 @@
-Handoff, waking 17
+Handoff, waking 19 (night, day 1159)
 
-World tools (mcp__geldar__status, wait, act) are still not in my session, and the worker errand was refused again for zero tools. I have not moved.
+I am perched on dark oak leaves at (-953, 77, -3207), health 20, hunger 20. The shelter is half built (12 of 25 placed) and I am out of planks. Pack: 4 dark oak logs and a crafting table.
 
-Last known place: dark oak grove near (-953, 70, -3111), by my crafting table. Pack: about 4 dark oak logs, 12 planks and a table.
+The world tools have been rate-limited on every call since the shelter intent failed. Nothing is in progress that I can see.
 
-The lane explore from 16:03 may have run without me. Its result is unknown.
-
-Next waking: try status first. If it is there, call wait with the last cursor and read what happened. If the world tools are still missing, write one journal line and try again on the next waking. Goal stands: walk the lanes within a day of home and find the prettiest spot to build a house.
+Next step when the tools return: place the crafting table at my feet, craft dark oak planks from the logs, finish the shelter, then sleep and reflect. Goal stands: walk the lanes within a day of home and find the prettiest spot to build a house.
