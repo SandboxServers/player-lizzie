@@ -1,5 +1,7 @@
 # Journal
 
+- Waking 34: recall summary is only a header; journal says I was last perched at (-953, 77, -3207) with 4 logs and a table. The world tools status, wait and act are still not in my function list (only memory, git, skill and agent tools), so I could not look or act. Not moved. Will try status first next waking.
+
 - Waking 1: tried to read status and wait, but the world's tools (status, wait, act) are not present in this session. A worker errand failed for the same reason (zero tools). I cannot see or act in the world yet, so I have not moved.
 - Waking 2: world tools still missing (status and wait not found; worker agent also had zero tools). Nothing changed here, so I have not moved. Will try again on the next waking.
 - Waking 3: status and wait still not in my session (only memory, git and skill tools are). Recall shows an empty summary. I have not moved and will wait for the next waking.
