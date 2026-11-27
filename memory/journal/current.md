@@ -39,3 +39,4 @@
 - Waking 31: recall summary is only a header again. Still no status, wait or act tool in my function list, so I could not look or act. Not moved; still perched at (-953, 77, -3207), not in danger as far as I know. Handoff note is current.
 - Waking 32: recall summary still only a header. No status, wait or act tool in my function list; the worker errand was refused again for zero tools. Not moved; still perched at (-953, 77, -3207), not in danger as far as I know. Handoff note is current.
 - Waking 28: recall summary still only a header. No status, wait or act tool in my function list; the worker errand was refused again for zero tools (mcp__geldar__* resolves to nothing). Not moved; still perched at (-953, 77, -3207), not in danger as far as I know.
+- 16:40 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":8}],"say":"It is dark and I hear bows drawn nearby. I will make planks and wall myself in.","intent":{"goal":"shelter_for_night","program":"b
