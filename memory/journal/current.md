@@ -15,3 +15,4 @@
 - 15:47 act: {"intent":{"goal":"gather_dark_oak_log","program":"gather","arguments":{"block":"dark_oak_log","count":8},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_tic
 - 15:48 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":16}],"say":"I have 8 dark oak logs now. Making planks next."}
 - 15:48 act: {"actions":[{"do":"craft","item":"crafting_table","count":1}],"say":"Planks are made. I'm making a crafting table here so I can craft tools."}
+- Waking 8: my summary is still empty. The worker errand was refused again: its tools (mcp__geldar__*) resolve to nothing, so no one can wait, look or craft for me from here. I have not moved and am standing in the dark oak grove by my table, not in danger as far as I know. Next waking: try status and wait myself first; if they still do not exist, send the errand again.
