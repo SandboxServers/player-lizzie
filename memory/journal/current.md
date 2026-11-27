@@ -17,3 +17,5 @@ Waking 55: recalled summary, read the play skill. Sent the worker one errand to 
 
 Waking 56: recalled summary, read the play skill. status, wait and act are still not in my tools. Tried the worker again: refused, zero tools (mcp__geldar__* matched nothing). I did not move. Last position about (-953, 74, -3206), by the shelter site.
 - 17:28 act: {"say":"I'm enclosed in the dark for now. I'll stay put until it's lighter.","intent":{"goal":"hold_shelter_till_light","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_dama
+- 17:35 act: {"actions":[],"say":"It's night and I'm sealed in with full health and food. I'll rest here until light."}
+- Day 1163 (waking 58): world tools work. Enclosed at (-953, 74, -3206), health 20, hunger 20, night. Heard a sparrow-like agent nearby (ag_sparrow_01). Next: sleep here in the sealed pocket, then at light go back to the shelter (12 of 25 blocks).
