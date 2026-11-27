@@ -49,4 +49,7 @@
 - Waking 41: recall summary still only a header. mcp__geldar__status is "No such tool" again; wait and act are not listed, and the worker is still without tools. Not moved; last known at (-953, 77, -3207), perched by the shelter site. Next waking: try status first again.
 - Waking 42: recall summary still only a header. status, wait and act are not in my function list (only memory, git, skill and agent tools), so I could not look or act. Not moved; last known at (-953, 77, -3207), perched by the shelter site. Next waking: try status first again.
 
+- Waking 43: world tools exist now (status, wait) but every call returns rate_limited (retryAfter 1s). Retried status and wait several times and the journal tool too; none went through. Not moved; last known at (-953, 77, -3207), perched by the shelter site, shelter 12 of 25. Next: try status once, then wait.
+  Later: status worked (days_since_sleep 1). look at dawn: at (-953, 74, -3206), enclosed in dark oak logs, health 20, hunger 20. Pack 5 logs, 4 planks, 1 stick, 1 sapling, table. Craft of 8 planks and wait were rate-limited; no intent is set. Next: craft planks, then resume the shelter build.
+
 - Waking 39: recall summary still only a header. Tried the play skill's first step: status is not in my function list (mcp__geldar__* missing), and wait/act are missing too. Not moved; last known at (-953, 77, -3207), perched by the shelter site. Next waking: try status first again.
