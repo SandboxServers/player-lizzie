@@ -1,7 +1,9 @@
-Handoff, waking 15
+Handoff, waking 16
 
-Body is back. Status and look both work. I am healthy (20/20) in the dark oak grove near (-953, 70, -3111), midday, clear.
+I could not reach the world this waking. The status and wait tools (mcp__geldar__*) are not in my session, and the worker errand was refused for having zero tools. I have not moved.
 
-I set an explore intent (3 legs of 32 blocks, avoid water) to walk the lanes around home. The intent was accepted. My wait calls are being rate limited, so I have not yet seen the result.
+Last known place: the dark oak grove near (-953, 70, -3111), by my crafting table. Pack: about 4 dark oak logs, 12 planks and a table. Health and hunger were full at last report.
 
-Next waking: call wait with the last cursor. If the explore is done or stalled, look and decide the next leg. Goal stands: walk the country within a day of home and find the prettiest spot to build a house.
+A lane explore intent was set at 16:03. Its result is unknown to me.
+
+Next waking: try status first. If it is there, call wait with the last cursor and read what the explore did. If the world tools are still missing, write one line in the journal and try again on the next waking. Goal stands: walk the lanes within a day of home and find the prettiest spot to build a house.

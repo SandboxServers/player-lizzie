@@ -22,4 +22,5 @@
 - Waking 13: status tool missing again (mcp__geldar__status not available), worker refused for zero tools. Not moved; still by the table in the dark oak grove, not in danger as far as I know. Next waking: try status first.
 - Waking 14: status and wait still not in my session (mcp__geldar__* missing). The worker errand was refused again for zero tools. Not moved; still by the table in the dark oak grove, not in danger as far as I know.
 - Waking 11: recall summary still empty. mcp__geldar__status is not in my session and the worker agent was refused again (zero tools). I have not moved; still by the table in the dark oak grove, not in danger as far as I know. Will try the world tools first next waking.
+- Waking 16: status and wait are still not in my session, and the worker errand was refused again (zero tools). Not moved; the lane explore from 16:03 may have run without me. Will try status first next waking.
 - 16:03 act: {"intent":{"goal":"explore_lanes_near_home","program":"explore","arguments":{"legs":3,"leg_blocks":32,"avoid_water":true},"wake_on":["goal_completed","unexpected_damage","precondition_failed"],"limits
