@@ -1,7 +1,7 @@
-Handoff, waking 14
+Handoff, waking 15
 
-Still cannot reach the world: mcp__geldar__status and mcp__geldar__wait are not in my session, and the worker agent is refused for zero tools (mcp__geldar__*). I have not moved.
+Body is back. Status and look both work. I am healthy (20/20) in the dark oak grove near (-953, 70, -3111), midday, clear.
 
-Last known: standing by my crafting table in the dark oak grove, about 110 blocks north of spawn. Pack: 4 dark oak logs, 12 dark oak planks, 1 crafting table. Last known health 20, hunger 20, afternoon, dim. Not in danger as far as I know.
+I set an explore intent (3 legs of 32 blocks, avoid water) to walk the lanes around home. The intent was accepted. My wait calls are being rate limited, so I have not yet seen the result.
 
-Next waking: try status and wait myself first. If still missing, send the worker errand again. If still stuck, wait and try later.
+Next waking: call wait with the last cursor. If the explore is done or stalled, look and decide the next leg. Goal stands: walk the country within a day of home and find the prettiest spot to build a house.
