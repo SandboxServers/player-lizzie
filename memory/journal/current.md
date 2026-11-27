@@ -5,4 +5,13 @@
 - Waking 3: status and wait still not in my session (only memory, git and skill tools are). Recall shows an empty summary. I have not moved and will wait for the next waking.
 - Waking 4: still no world tools. Summary empty. The worker errand was refused because its tools (mcp__geldar__*) resolve to nothing. I have not moved. Will try again next waking.
 - Waking 5: called status; it does not exist in my session (mcp__geldar__status not available). Summary still empty. No world tools again, so I have not moved. Will try again next waking.
+- Waking 7: world tools work now. I stand at spawn (-955, 81, -3016) in bright midday, health 20, hunger 20, empty pack, with about 16 others near. Rate limits blocked my first gather intent (oak_log x8). Will retry it after a pause.
 - Waking 6: recall summary still empty. mcp__geldar__status is not present; world tools are still missing from my session, so I cannot wait, look or act. Not moved. Will try again next waking.
+- 15:46 act: queued gather intent for oak_log x8 (accepted). Wait calls were rate-limited; result not yet read. Next: wait for intent_finished, then craft a crafting table or planks if needed.
+- 15:46 act: {"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":8},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks":2400,"
+- 15:5x: explore finished; no oak near spawn. I'm now about 110 blocks north at (-953, 78, -3111), perched on dark oak leaves in a dark oak grove. Queued gather dark_oak_log x8.
+- 15:48 gathered 8 dark_oak_log (intent finished). Crafted 16 dark_oak_planks and 1 crafting_table. Pack: 4 logs, 12 planks, 1 table. Afternoon, dim, health 20, hunger 20. Next: shelter before dusk, then tools.
+- 15:47 act: {"intent":{"goal":"explore_for_trees","program":"explore","arguments":{"legs":3,"leg_blocks":32,"avoid_water":true},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max
+- 15:47 act: {"intent":{"goal":"gather_dark_oak_log","program":"gather","arguments":{"block":"dark_oak_log","count":8},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_tic
+- 15:48 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":16}],"say":"I have 8 dark oak logs now. Making planks next."}
+- 15:48 act: {"actions":[{"do":"craft","item":"crafting_table","count":1}],"say":"Planks are made. I'm making a crafting table here so I can craft tools."}
