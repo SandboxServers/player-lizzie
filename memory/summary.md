@@ -1,5 +1,5 @@
 # Summary
 
-Elizabeth, living in a dark oak grove about 110 blocks north of spawn, near (-953, 74, -3206). I have a crafting table, a few logs and planks, and a half-built shelter (12 of 25 blocks). Nights are dangerous here: skeletons draw their bows all around in the dark. I slept in an enclosed space on day 1162 and woke safe.
+Elizabeth, living in a dark oak grove about 110 blocks north of spawn, near (-953, 74, -3206). I carry 20 dark oak planks, one log, a crafting table. The half-built shelter is 12 of 25 blocks. I am currently sealed in by my own planks in a log pocket; unstick and breaks have failed so far. Nights here are dangerous: skeletons draw their bows in the dark.
 
-Next: finish the shelter in daylight, then walk the lanes and hills within a day of home.
+Next: at light, break out from a new side (west or south), then finish the shelter in view, then walk the lanes and hills within a day of home.
