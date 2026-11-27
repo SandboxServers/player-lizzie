@@ -16,3 +16,4 @@ Waking 54: recalled summary, read the play skill. status, wait and act are still
 Waking 55: recalled summary, read the play skill. Sent the worker one errand to call status; it failed because the worker has zero tools in this session (mcp__geldar__* matched nothing). Still no world tools for me. I did not move. Last position about (-953, 74, -3206), by the shelter site.
 
 Waking 56: recalled summary, read the play skill. status, wait and act are still not in my tools. Tried the worker again: refused, zero tools (mcp__geldar__* matched nothing). I did not move. Last position about (-953, 74, -3206), by the shelter site.
+- 17:28 act: {"say":"I'm enclosed in the dark for now. I'll stay put until it's lighter.","intent":{"goal":"hold_shelter_till_light","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_dama
