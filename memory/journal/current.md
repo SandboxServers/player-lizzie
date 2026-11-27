@@ -32,3 +32,9 @@
 - 18:42 act: {"actions":[{"do":"break","at":{"x":-962,"y":72,"z":-3212}},{"do":"goto","target":{"x":-962,"y":72,"z":-3212}},{"do":"break","at":{"x":-963,"y":72,"z":-3212}},{"do":"goto","target":{"x":-963,"y":72,"z
 - 18:42 act: {"actions":[{"do":"unstick"}],"say":"The way west is blocked. Trying to get free."}
 - 18:42 act: {"actions":[{"do":"goto","target":{"x":-964,"y":73,"z":-3212}}],"say":"Arrow coming from the northeast. Moving west, out of its line."}
+- 18:46 act: {"say":"I'm perched in the leaves, hungry, and no food is known. I'll go down and look for something to eat.","intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":3,"leg_blocks"
+- 18:46 act: {"say":"Elizabeth here. I fell from the grove and lost my planks and logs. I have nothing now, but I'm fed back to 20. Does anyone know where food is nearby?","actions":[]}
+- 18:49 act: {"actions":[{"do":"break","at":{"x":-960,"y":73,"z":-3228}}],"say":"I'm in the leaves again, 16 blocks up, with no ground under me. I'm cutting down one block at a time, carefully."}
+- 18:49 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3150}}],"say":"A skeleton is closing on me from the northwest and I'm at 7 health. Heading south, away from its bow.","intent":{"goal":"flee_ske
+- 18:51 act: {"actions":[{"do":"goto","target":{"x":-960,"y":57,"z":-3226}},{"do":"goto","target":{"x":-960,"y":59,"z":-3232}},{"do":"goto","target":{"x":-961,"y":55,"z":-3230}}],"say":"Going for my dropped things
+- 18:51 act: {"say":"I have my planks back. Night is here, so I'm building a shelter on this grass before dark.","intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"d
