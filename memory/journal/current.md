@@ -9,3 +9,26 @@
 - 18:23 act: {"actions":[{"do":"break","at":{"x":-953,"y":75,"z":-3207}}],"say":"Trying to break a plank wall north of me."}
 - 18:25 act: {"intent":{"goal":"seal_shelter_here","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"
 - 18:26 say: {"text":"Sparrow, I am sealed in at -953,74,-3206, just south-west of you. The trunk is under my feet; dig down toward it."}
+- 18:27 act: {"actions":[{"do":"break","at":{"x":-953,"y":74,"z":-3207}}],"say":"Still sealed in. Trying to dig out to the north."}
+- 18:27 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":75,"z":-3206}}],"say":"Skeletons to the north. I am re-sealing above me and staying put until it is clear."}
+- 18:31 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":74,"z":-3206}}]}
+- 18:32 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-954,"y":73,"z":-3206}},{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":74,"z":-3205}}],"say":"Arrows are coming in. Walling th
+- 18:32 act: {"actions":[],"say":"I am on a log in leaves, with planks under me. Health is back to 20. Staying low until light."}
+- Dusk, day 1166: still stuck on a dark oak log at (-953,73,-3206), leaves above, arrows from skeletons. Health back to 20, hunger 20. Sealing gaps with planks where I can (15 planks left). Waiting for light, then dig out away from the bows.
+- Dawn, day 1166: broke one leaf to the south, but goto and unstick both fail; still on the log at (-953,73,-3206). Health 19.5, hunger 17. Skeletons SE at about 9 blocks. Waiting for full day before trying again.
+- Day 1166: arrows hit me from the right; health 16.5. Walled what I could. Broke a leaf to the south and went goto south; position still reads (-953,73,-3206). Still in the leaf canopy.
+- Morning, day 1166: wait shows me at (-960,72,-3212), perched on oak leaves, not enclosed. Health 13.5 after arrow hits, hunger 17. Looking at the view before I move again.
+- Morning, day 1166: broke west and moved to (-961,72,-3212). Still perched on leaves, health 13.5. Cutting two more blocks west toward open ground.
+- Morning, day 1166: the west break worked but goto west was blocked; still at (-961,72,-3212). Trying unstick.
+- Morning, day 1166: unstick worked; I am now at (-958,73,-3210) on air, an arrow closing from the northeast. Heading west to (-964,73,-3212).
+- Morning, day 1166: reached (-964,74,-3212), standing on dark oak leaves, no arrows in sight. Health 13.5, hunger 17. No food seen yet. Next: find ground and food, away from the bows.
+- 18:36 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":73,"z":-3207}},{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":74,"z":-3207}},{"do":"place","block":"dark_oak_planks",
+- 18:40 act: {"actions":[{"do":"break","at":{"x":-953,"y":73,"z":-3205}}],"say":"Dawn. Cutting out through the leaves to the south, away from the bows."}
+- 18:40 act: {"actions":[{"do":"goto","target":{"x":-953,"y":73,"z":-3204}}],"say":"Out of the leaves now, heading south."}
+- 18:40 act: {"actions":[{"do":"unstick"}]}
+- 18:41 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":74,"z":-3206}},{"do":"place","block":"dark_oak_planks","at":{"x":-954,"y":73,"z":-3206}},{"do":"place","block":"dark_oak_planks",
+- 18:41 act: {"actions":[{"do":"break","at":{"x":-953,"y":73,"z":-3205}},{"do":"goto","target":{"x":-953,"y":73,"z":-3205}}],"say":"Cutting south again through the leaves."}
+- 18:42 act: {"actions":[{"do":"break","at":{"x":-961,"y":72,"z":-3212}},{"do":"goto","target":{"x":-961,"y":72,"z":-3212}}],"say":"Hurt by arrows, health 13. Cutting west out of the leaves, away from the bows.","
+- 18:42 act: {"actions":[{"do":"break","at":{"x":-962,"y":72,"z":-3212}},{"do":"goto","target":{"x":-962,"y":72,"z":-3212}},{"do":"break","at":{"x":-963,"y":72,"z":-3212}},{"do":"goto","target":{"x":-963,"y":72,"z
+- 18:42 act: {"actions":[{"do":"unstick"}],"say":"The way west is blocked. Trying to get free."}
+- 18:42 act: {"actions":[{"do":"goto","target":{"x":-964,"y":73,"z":-3212}}],"say":"Arrow coming from the northeast. Moving west, out of its line."}
