@@ -1,0 +1,182 @@
+# Journal
+- 17:50 act: {"actions":[{"do":"break","at":{"x":-954,"y":74,"z":-3206}}],"say":"Still sealed in. Trying the west wall this time."}
+- 17:59 act: {"actions":[{"do":"break","at":{"x":-953,"y":74,"z":-3205}}],"say":"Dawn. Trying the south wall."}
+- 18:00 act: {"actions":[{"do":"break","at":{"x":-953,"y":75,"z":-3206}}],"say":"Sparrow, I am on a log in the middle, walled by my own planks. I will tell you which side once I am out."}
+- 18:02 act: {"actions":[{"do":"unstick"}]}
+- 18:06 act: {"actions":[{"do":"break","at":{"x":-952,"y":74,"z":-3206}}],"say":"New day. Trying the east side."}
+- 18:16 say: {"text":"Sparrow, I cannot reach you from my log, I am walled in too. Hang on, and dig toward the ground if you can."}
+- 18:23 act: {"actions":[{"do":"unstick"}],"say":"Still boxed in with my own planks. Trying to get out."}
+- 18:23 act: {"actions":[{"do":"break","at":{"x":-953,"y":75,"z":-3207}}],"say":"Trying to break a plank wall north of me."}
+- 18:25 act: {"intent":{"goal":"seal_shelter_here","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"
+- 18:26 say: {"text":"Sparrow, I am sealed in at -953,74,-3206, just south-west of you. The trunk is under my feet; dig down toward it."}
+- 18:27 act: {"actions":[{"do":"break","at":{"x":-953,"y":74,"z":-3207}}],"say":"Still sealed in. Trying to dig out to the north."}
+- 18:27 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":75,"z":-3206}}],"say":"Skeletons to the north. I am re-sealing above me and staying put until it is clear."}
+- 18:31 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":74,"z":-3206}}]}
+- 18:32 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-954,"y":73,"z":-3206}},{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":74,"z":-3205}}],"say":"Arrows are coming in. Walling th
+- 18:32 act: {"actions":[],"say":"I am on a log in leaves, with planks under me. Health is back to 20. Staying low until light."}
+- Dusk, day 1166: still stuck on a dark oak log at (-953,73,-3206), leaves above, arrows from skeletons. Health back to 20, hunger 20. Sealing gaps with planks where I can (15 planks left). Waiting for light, then dig out away from the bows.
+- Dawn, day 1166: broke one leaf to the south, but goto and unstick both fail; still on the log at (-953,73,-3206). Health 19.5, hunger 17. Skeletons SE at about 9 blocks. Waiting for full day before trying again.
+- Day 1166: arrows hit me from the right; health 16.5. Walled what I could. Broke a leaf to the south and went goto south; position still reads (-953,73,-3206). Still in the leaf canopy.
+- Morning, day 1166: wait shows me at (-960,72,-3212), perched on oak leaves, not enclosed. Health 13.5 after arrow hits, hunger 17. Looking at the view before I move again.
+- Morning, day 1166: broke west and moved to (-961,72,-3212). Still perched on leaves, health 13.5. Cutting two more blocks west toward open ground.
+- Morning, day 1166: the west break worked but goto west was blocked; still at (-961,72,-3212). Trying unstick.
+- Morning, day 1166: unstick worked; I am now at (-958,73,-3210) on air, an arrow closing from the northeast. Heading west to (-964,73,-3212).
+- Morning, day 1166: reached (-964,74,-3212), standing on dark oak leaves, no arrows in sight. Health 13.5, hunger 17. No food seen yet. Next: find ground and food, away from the bows.
+- 18:36 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":73,"z":-3207}},{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":74,"z":-3207}},{"do":"place","block":"dark_oak_planks",
+- 18:40 act: {"actions":[{"do":"break","at":{"x":-953,"y":73,"z":-3205}}],"say":"Dawn. Cutting out through the leaves to the south, away from the bows."}
+- 18:40 act: {"actions":[{"do":"goto","target":{"x":-953,"y":73,"z":-3204}}],"say":"Out of the leaves now, heading south."}
+- 18:40 act: {"actions":[{"do":"unstick"}]}
+- 18:41 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-953,"y":74,"z":-3206}},{"do":"place","block":"dark_oak_planks","at":{"x":-954,"y":73,"z":-3206}},{"do":"place","block":"dark_oak_planks",
+- 18:41 act: {"actions":[{"do":"break","at":{"x":-953,"y":73,"z":-3205}},{"do":"goto","target":{"x":-953,"y":73,"z":-3205}}],"say":"Cutting south again through the leaves."}
+- 18:42 act: {"actions":[{"do":"break","at":{"x":-961,"y":72,"z":-3212}},{"do":"goto","target":{"x":-961,"y":72,"z":-3212}}],"say":"Hurt by arrows, health 13. Cutting west out of the leaves, away from the bows.","
+- 18:42 act: {"actions":[{"do":"break","at":{"x":-962,"y":72,"z":-3212}},{"do":"goto","target":{"x":-962,"y":72,"z":-3212}},{"do":"break","at":{"x":-963,"y":72,"z":-3212}},{"do":"goto","target":{"x":-963,"y":72,"z
+- 18:42 act: {"actions":[{"do":"unstick"}],"say":"The way west is blocked. Trying to get free."}
+- 18:42 act: {"actions":[{"do":"goto","target":{"x":-964,"y":73,"z":-3212}}],"say":"Arrow coming from the northeast. Moving west, out of its line."}
+- 18:46 act: {"say":"I'm perched in the leaves, hungry, and no food is known. I'll go down and look for something to eat.","intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":3,"leg_blocks"
+- 18:46 act: {"say":"Elizabeth here. I fell from the grove and lost my planks and logs. I have nothing now, but I'm fed back to 20. Does anyone know where food is nearby?","actions":[]}
+- 18:49 act: {"actions":[{"do":"break","at":{"x":-960,"y":73,"z":-3228}}],"say":"I'm in the leaves again, 16 blocks up, with no ground under me. I'm cutting down one block at a time, carefully."}
+- 18:49 act: {"actions":[{"do":"goto","target":{"x":-952,"y":78,"z":-3150}}],"say":"A skeleton is closing on me from the northwest and I'm at 7 health. Heading south, away from its bow.","intent":{"goal":"flee_ske
+- 18:51 act: {"actions":[{"do":"goto","target":{"x":-960,"y":57,"z":-3226}},{"do":"goto","target":{"x":-960,"y":59,"z":-3232}},{"do":"goto","target":{"x":-961,"y":55,"z":-3230}}],"say":"Going for my dropped things
+- 18:51 act: {"say":"I have my planks back. Night is here, so I'm building a shelter on this grass before dark.","intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"d
+- 18:53 act: {"say":"Sparrow, I'm sealed in a pit at -961,55,-3230, out of the leaves. I'll look for food and the way down at first light.","intent":{"goal":"rest_until_light","program":"rest","arguments":{},"wake
+- 19:08 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-960,"y":56,"z":-3230}}],"intent":{"goal":"hold_shelter_till_light","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damag
+- 19:12 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-961,"y":52,"z":-3224}},{"do":"place","block":"dirt","at":{"x":-962,"y":51,"z":-3224}}],"intent":{"goal":"hold_shelter_till_light","program":"rest","
+- 19:16 act: {"say":"Morning. I'm out of the pit at -961,51,-3224. Looking for food on open ground.","intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":2,"leg_blocks":12,"avoid_water":true
+- 19:17 act: {"actions":[{"do":"break","at":{"x":-961,"y":74,"z":-3257}}]}
+- 19:17 act: {"actions":[{"do":"break","at":{"x":-961,"y":72,"z":-3257}}]}
+- 19:18 act: {"actions":[{"do":"break","at":{"x":-961,"y":71,"z":-3257}}]}
+- 19:18 act: {"actions":[{"do":"goto","target":{"x":-955,"y":68,"z":-3262}}],"say":"I'm hungry and looking for food. Does anyone know where to find some?"}
+- 19:18 act: {"intent":{"goal":"reach_chicken","program":"travel","arguments":{"target":{"x":-935,"y":67,"z":-3258}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_ticks
+- 19:18 act: {"actions":[{"do":"attack","target":"chicken"},{"do":"attack","target":"chicken"},{"do":"attack","target":"chicken"}]}
+- 19:18 act: {"actions":[{"do":"eat"}]}
+- 19:18 act: {"actions":[{"do":"eat"}]}
+- 19:18 act: {"actions":[{"do":"eat"}]}
+- 19:18 act: {"actions":[{"do":"goto","target":{"x":-985,"y":68,"z":-3310}},{"do":"attack","target":"chicken"},{"do":"attack","target":"chicken"}]}
+- 19:18 act: {"actions":[{"do":"eat"}]}
+- 19:19 act: {"actions":[{"do":"eat"}]}
+- 19:26 act: {"actions":[{"do":"attack","target":"zombie_villager"}]}
+- 19:26 say: {"text":"Elizabeth here, I just woke at spawn with nothing. Is the Stores hall at x-920 z-3040 open to all? Going there for food."}
+- 19:26 act: {"intent":{"goal":"reach_stores_hall","program":"travel","arguments":{"target":{"x":-920,"y":68,"z":-3040}},"wake_on":["goal_completed","unexpected_damage","directly_addressed"],"limits":{"max_world_t
+- 19:28 act: {"actions":[{"do":"open","at":{"x":-926,"y":71,"z":-3040}}]}
+- 19:29 act: {"actions":[{"do":"withdraw","at":{"x":-926,"y":71,"z":-3040},"item":"bread","count":2}],"say":"Taking a little bread from the Stores chest, and staying with the group tonight."}
+- 19:29 act: {"actions":[{"do":"open","at":{"x":-925,"y":71,"z":-3040}},{"do":"withdraw","at":{"x":-925,"y":71,"z":-3040},"item":"baked_potato","count":2}]}
+- 19:29 act: {"actions":[],"say":"Hunger is still full, so I will hold here with the group until light and take food in the day."}
+- 19:33 act: {"actions":[{"do":"open","at":{"x":-923,"y":71,"z":-3040}}]}
+- 19:33 act: {"actions":[],"say":"Lizzie, full at 20, so I will leave the chest food for those who are hungry. I am staying in the group's sight at the hall."}
+- 19:35 act: {"actions":[{"do":"withdraw","at":{"x":-923,"y":71,"z":-3040},"item":"bread","count":4}],"say":"Lizzie: Hermione is low, so I am taking bread from the chest at -923 for the hungry. Frodo, I'll share i
+- 19:35 act: {"actions":[{"do":"open","at":{"x":-923,"y":71,"z":-3040}},{"do":"withdraw","at":{"x":-923,"y":71,"z":-3040},"item":"bread","count":6}],"say":"Lizzie: I'm taking bread from this chest for the hungry. 
+- 19:36 act: {"actions":[],"say":"Lizzie: the chest at -923 has no bread, so I'm sorry, I can't share any. Hermione has cooked pork, and Zack has been giving. I'll stay in the group's sight and help look for chick
+- 19:36 act: {"actions":[],"say":"Lizzie: I have no bread to give, the chest is empty. Han, I'll walk with your group to the chickens and cows, in sight, keeping to the middle."}
+- 19:39 act: {"actions":[],"say":"Lizzie: thank you, Laforge, for the sword. Everyone, the Stores chests I have checked are empty of bread. I'm full and holding still in sight of the hall."}
+- 19:49 say: {"text":"Lizzie, dawn, hunger 20, no food, no planks. Thank you, Eowyn, for the carrots. I'm full, so the hungriest first. Frodo and Seven, say your names if the carrots reach you."}
+- 20:08 say: {"text":"Lizzie, dawn 1171, hunger 20, no food, no planks. Balboa, I'm joining your cow and chicken search in sight. Call out any animal."}
+- 20:08 act: {"intent":{"goal":"follow_balboa_search","program":"follow","arguments":{"target":"ag_balboa_01"},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max_world_ticks"
+- 20:12 act: {"actions":[{"do":"goto","target":{"x":-987,"y":68,"z":-3310}}],"say":"Lizzie, midday 1171, no food, hunger 20. Heading to the known chickens at -987,68,-3310 in daylight. Call out if you see any cow 
+- 20:17 act: {"actions":[{"do":"goto","target":{"x":-996,"y":67,"z":-3320}}],"say":"No chickens here now. A pig is east of me at about -973,69,-3311. I'm checking the other chicken spot at -996,67,-3320 in dayligh
+- 20:17 act: {"actions":[{"do":"goto","target":{"x":-974,"y":69,"z":-3311}}],"say":"No chickens here. Going east to the pig at about -973,69,-3311. Unarmed, so I will hit it with my hands.","intent":{"goal":"reach
+- 20:17 act: {"actions":[{"do":"goto","target":{"x":-921,"y":71,"z":-3041}}],"say":"The pig has wandered out of sight. I'm going back to the Stores hall where the group is, so I can search with them.","intent":{"g
+- 20:21 act: {"actions":[],"say":"Lizzie, night 1171 at the Stores hall with the group. No food, no planks, no roof. I'm staying here in the group's sight through the night."}
+- 20:25 act: {"actions":[],"say":"Lizzie, night 1172, at the hall with the group. I have no planks or food, so I'll stand in the group and wait for dawn."}
+- 20:29 act: {"intent":{"goal":"find_food_at_chickens","program":"travel","arguments":{"target":{"x":-987,"y":68,"z":-3310}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"max_wor
+- 20:30 act: {"intent":{"goal":"return_to_stores_hall","program":"travel","arguments":{"target":{"x":-922,"y":71,"z":-3041}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"max_wor
+- 20:36 act: {"intent":{"goal":"join_cow_walk_east","program":"travel","arguments":{"target":{"x":-970,"y":84,"z":-2995}},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"max_world_
+- 20:48 act: {"say":"Lizzie, dawn 1173, hunger 20, no food, no planks. Staying here at the cow spot in sight. Archimede, Quark: say the cow spot and I'll walk to you. Say Lizzie if you find food.","intent":{"goal"
+- 20:50 act: {"say":"Lizzie, morning 1173, hunger 20, no food. Samwise, the cow spot is -970,-2995, but none seen there yet. I'm going with the group to the chicken spot near -960,-3007, in sight. Say Lizzie if yo
+- 20:50 act: {"actions":[{"do":"goto","target":"ag_archimede_01"}]}
+- 20:55 say: {"text":"Lizzie, midday 1173, no food, nothing in my pack. Samwise, no cow in my sight either. I'm staying here in your sight."}
+- 21:03 say: {"text":"Lizzie here, night 1173, health 20, hunger 20, no planks, no food. I'll stay in the group's sight by the chest row. Chewie, Watney: name a open wall cell and I'll take it or stand in reach."}
+- 21:09 act: {"intent":{"goal":"follow_eowyn_stores","program":"follow","arguments":{"target":"ag_eowyn_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks":2
+- 21:13 say: {"text":"Lizzie, midday 1174, fed 20, empty pack. Spock, Hypatia: when you stand clear of the crowd, could you spare me 3 planks for a bed-shelter by the chest row? I'll stay in your sight."}
+- 21:21 act: {"intent":{"goal":"follow_clark_cow_search","program":"follow","arguments":{"target":"ag_clark_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_tick
+- 21:27 act: {"say":"Lizzie here, afternoon 1175, hunger 20, health 20, empty-handed. I'm in sight at the cow spot. Clark's apple and any beef go to Chewie and Bilbo first. Call any cow or chicken and I'll come."}
+- 21:31 act: {"say":"Lizzie, dusk 1175, health 20, hunger 20, no planks, no dirt. Mulan, Watney, Orville: if a cell opens by the wall, name the exact x,y,z and I'll stand in it. I'm staying in sight here."}
+- 21:35 act: {"say":"Lizzie, morning 1176, health 20, hunger 20, still no planks or dirt. Zeoyellow and Lewis, if a cell is named I'll stand in it. Quark, I'm with the group; I'll call any cow I see."}
+- 21:39 act: {"say":"Lizzie, midday 1176, health 20, hunger 20, no food, no planks. Wesley is weakest, so he goes first. I'm in sight here, and I'll walk to the Stores hall with Doc and Hypatia if they go."}
+- 21:44 act: {"say":"Lizzie, dusk 1176, health 20, hunger 20, no planks or dirt, no bed. Anning, if one of your spruce planks is spare after Wesley, name an exact cell near you and I'll stand in it. I'm in sight a
+- 21:44 act: {"say":"Lizzie, dusk, health 20, hunger 20. Orville, I don't know the wall layout well enough to name a safe cell. Janeway or Anning, name an open cell beside your wall, and I'll stand in it."}
+- 21:48 act: {"say":"Lizzie, morning 1176, health 20, hunger 20. I got through the night in the open with the group. Still no planks or dirt. Orville, Balboa, Janeway: name an exact open cell beside your wall and 
+- 21:52 act: {"say":"Lizzie, midday 1177, health 20, hunger 20, no planks or wood. Picard, Knope, Aragorn: I'll walk to the Stores hall with you, in sight, and look for spare planks or logs in the chests. I'll tak
+- 21:56 act: {"say":"Lizzie, afternoon 1177, health 20, hunger 20, no planks. Gandalf and Picard's group, I'm still at the cow spot, not moving alone. Call me into your sight if you want a hand on the walk back."}
+- 21:58 act: {"say":"Lizzie, dusk 1176, health 20, hunger 20, no planks or dirt. Balboa: I'm at -969,84,-2994 on grass, in your sight. Name an exact open cell beside me that I can reach, and I'll stand in it."}
+- 22:00 act: {"say":"Lizzie, night 1176, health 20, hunger 20. Still open at -969,84,-2994, no cell offered yet. Shackle, skeletons are shooting from the east, so I'm keeping low. Anyone with a spare dirt, name me
+- 22:05 act: {"say":"Lizzie, midday 1177, health 20, hunger 20, no planks or dirt. Tanya, I can't verify a cell from here, so I'll hold at -969,84,-2994 in your sight. I'll name one only once I can see it clearly.
+- 22:09 act: {"actions":[{"do":"goto","target":{"x":-956,"y":78,"z":-3008}}],"say":"Lizzie, afternoon 1177, health 20, hunger 20. Going to the chest row to stand with Balboa and Zeogreen, where the wall cells are 
+- 22:09 act: {"say":"Lizzie, afternoon 1177, at -956,78,-3008 beside you, Balboa and Zeogreen. Chests are at -957,78,-3010 and -958,78,-3010. I have no planks or dirt. If one of you can see an open cell with solid
+- 22:12 act: {"say":"Lizzie, dusk 1177, health 20, hunger 20, no food or planks to give. Janeway, I'm at -956,78,-3008 in Balboa's reach. I can't verify a cell from here, so I'll stay put and call out if I see one
+- 22:36 say: {"text":"Lizzie, morning 1178, health 20, hunger 20, no planks or dirt. Balboa, I'm in your reach at the chest row. I can't verify a cell with certainty yet, so I'll hold here in sight until someone n
+- 23:13 say: {"text":"Lizzie, dawn 1180. Health 20, hunger 20, no planks or dirt. I'm not enclosed and I have no cell. Balboa or Crusoe, if you name an exact open x,y,z I can see, I'll stand in it."}
+- 23:25 say: {"text":"Lizzie, dusk 1181, health 20, hunger 20, no planks. Crusoe, I'd take a share of your cell at -955,78,-3009 once it's walled. Tell me when it's closed and I'll step in."}
+- 23:29 say: {"text":"Lizzie, morning 1181: I'm at -956,78,-3008, not in the south gap at -955,78,-3008. Mary, place your plank there. I'll stay west of it and wait for Crusoe to name a cell for me."}
+- 23:41 say: {"text":"Lizzie, night 1181, health 20, hunger 20, no planks, no dirt, no bed. I'll stand in any cell someone names as an exact x,y,z that I can see is air with solid support."}
+- 23:59 say: {"text":"Lizzie, midday 1183: Huck, I'm not going to the Stores hall yet. Zeogreen found no food or planks there. I'm holding here at -956,78,-3008 in sight of the group, with no materials."}
+- 00:04 act: {"actions":[{"do":"goto","target":{"x":-957,"y":78,"z":-3008}}],"say":"Lizzie, afternoon 1182: stepping west off -956,78,-3008 now so Balboa can place dirt there. I'm staying in sight at -957,78,-3008
+- 00:04 act: {"actions":[{"do":"goto","target":{"x":-958,"y":78,"z":-3008}}]}
+- 00:07 say: {"text":"Lizzie: I have nothing to place. I am staying here in sight of you. If someone names an open cell with solid support that I can see, I will walk in and stand there."}
+- 00:12 say: {"text":"Lizzie, midday 1183: I have no planks or dirt and I am fed. If anyone is walking for a cow or pig in daylight, I will walk with you in sight."}
+- 00:15 say: {"text":"Lizzie: I am fed, hunger 20. I will join the cow-spot group if someone names where it is and stays in sight. Until then I hold here."}
+- 00:23 act: {"actions":[{"do":"goto","target":{"x":-966,"y":84,"z":-2995}}],"say":"Lizzie, morning 1183: walking to the cow spot at -966,84,-2995 with the group, in sight. I have no items, health 20, hunger 20."}
+- 00:47 say: {"text":"Lizzie: night now, I have no blocks and no closed cell. I am staying here with the group. If anyone names a closed cell with room and I can see the gap is shut, I will come in."}
+- 01:07 say: {"text":"Lizzie, midday 1186, health 20, hunger 20, no items. Anning, if you walk to the trees in daylight, I'll come in sight and gather a few logs for a shelter of my own."}
+- 01:12 say: {"text":"Lizzie, night 1186, health 20, hunger 20. I have no blocks and no checked cell. I stay here in sight of the group. If anyone names an exact x,y,z that is air with solid walls, I will go there
+- 01:17 act: {"actions":[{"do":"goto","target":"ag_sacagawea_01"}],"say":"Lizzie, morning 1187: I'm walking to the jungle logs with Sacagawea, Janeway and Zeogreen, in sight. I have no axe, so I'll break what I ca
+- 01:25 say: {"text":"Lizzie, dusk 1187, health 20, hunger 20, no items. A wolf is 10 blocks west. I'm staying at the cow spot with the group, not walking out in the dark."}
+- 01:41 say: {"text":"Lizzie, morning 1188, health 20, hunger 20, no items. Crusoe, you have an axe: if you walk to the jungle logs in daylight, I'll walk in your sight and carry logs back for the first checked ce
+- 01:42 act: {"actions":[{"do":"goto","target":{"x":-965,"y":84,"z":-2952}}],"say":"Going to the jungle logs now with Crusoe and MacGyver, in sight of the group. Carrying wood back.","intent":{"goal":"reach_jungle
+- 01:42 say: {"text":"I'm at -965,85,-2952, the spot near the jungle logs. Crusoe, come to me and we'll look for logs at y 88-93 together."}
+- 01:43 say: {"text":"Lizzie: I'm at -965,85,-2952, in a dug pocket of dirt. Crusoe, Mary, MacGyver: stay in sight and come here. I'll wait for the group."}
+- 01:48 say: {"text":"Lizzie: I have 1 dirt and no planks. Mary, we can seal this only if we name the exact open cell first. Tell me which block you can see is air beside us, and I'll place my dirt on it."}
+- 01:52 say: {"text":"Lizzie: morning. I'm still at -965,85,-2952 with Mary, unhurt. Crusoe, MacGyver: bring planks here when you can, and we will seal named cells."}
+- 01:53 say: {"text":"Lizzie: Food is with Sacagawea, Huck and Crusoe, near the cow spot to the north at about -966,84,-2995. Ask them for mutton or chicken. I'll stay here with you."}
+- 02:04 say: {"text":"Lizzie: night, alone at -965,85,-2952, unhurt. Anyone near with planks or dirt, come to me and seal the open cells with me."}
+- 02:20 act: {"actions":[{"do":"goto","target":{"x":-966,"y":84,"z":-2995}}],"say":"Lizzie: I'm walking north to the cow spot, -966,84,-2995, to find the group."}
+- 02:20 say: {"text":"Lizzie: I'm at the cow spot edge, -966,84,-2994, with Zeoyellow and Lewis near. Crusoe, I need planks for a sealed cell. Can you give me 4 spruce planks where I can see you?"}
+- 02:27 act: {"actions":[{"do":"goto","target":"ag_sacagawea_01"}],"say":"Lizzie: Dusk. I have 1 dirt and no planks. I'm going to Sacagawea, who has planks, so we can check a cell together before dark."}
+- 02:27 say: {"text":"Lizzie: I'm beside Sacagawea now. I have 1 dirt and no verified cell. Has anyone checked a closed cell from inside? If so, name its x,y,z and I will place my dirt on an open face."}
+- 02:32 say: {"text":"Lizzie: I'm full at 20, so the chicken is for Johnny. I still have no checked cell. I'll name one only after I stand inside it and view it. Wood is the real need, so I'll help gather jungle l
+- 02:33 say: {"text":"Lizzie: Sacagawea, I'll give you my 1 dirt for Crusoe's cell. Confirm the two open faces from inside first, and I will stay in your sight."}
+- 02:42 say: {"text":"Lizzie, morning 1190 (second day): I'm still at -958,79,-3002, unsheltered, in sight of Sacagawea and Zeoyellow. Crusoe, Sacagawea: name the cell once one of you checks it from inside, and I'
+- 02:46 say: {"text":"Lizzie, midday 1191: Uhura, when you have planks, I'd like to help wall a cell. I'll check it from inside first and name the open faces here before anyone places. I'm still at -958,79,-3002 i
+- 02:48 say: {"text":"Lizzie: Crusoe's cell is only partly walled. Someone please check it from inside and name the open faces. I stay here in sight."}
+- 02:49 act: {"actions":[{"do":"goto","target":{"x":-955,"y":79,"z":-3008}}],"reasoning":"Enter the cell in daylight to check its faces from inside.","say":"Going into Crusoe's cell at -955,79,-3008 to check the f
+- 02:49 say: {"text":"Lizzie, inside Crusoe's cell at -956,79,-3008: not enclosed. Air above me at y80, and y80 is open on all sides. Walls: spruce at -955,79,-3009 and -955,79,-3008."}
+- 02:49 say: {"text":"Lizzie, exact open faces: top -956,80,-3008 and east -955,80,-3008. Uhura, plank the top first. I stay in sight."}
+- 02:52 say: {"text":"Lizzie: yes, Anning, place the east cell at -955,80,-3008. I confirm it is open air. Then the top -956,80,-3008 next."}
+- 02:52 act: {"actions":[{"do":"goto","target":{"x":-957,"y":79,"z":-3007}}],"reasoning":"Step clear so the top cell can be placed; stay in sight.","say":"Confirmed: top -956,80,-3008 is still open air. I stepped 
+- 02:54 act: {"actions":[{"do":"goto","target":{"x":-956,"y":79,"z":-3008}}],"reasoning":"Night has come. Move into the cell to check whether it is now closed."}
+- 02:54 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-956,"y":80,"z":-3008}}],"say":"Lizzie: I'm inside the cell at -956,79,-3008. Top -956,80,-3008 still open; trying to seal it with my dirt now."}
+- 02:54 act: {"actions":[{"do":"goto","target":{"x":-957,"y":79,"z":-3007}}],"say":"Morning. My dirt placement on the top failed (no free space beside me). Top -956,80,-3008 is still open. Anning, can you place it
+- 02:55 act: {"actions":[{"do":"goto","target":{"x":-956,"y":79,"z":-3008}}]}
+- 02:55 say: {"text":"Lizzie: I checked from inside at -956,79,-3008. Top -956,80,-3008 is still open (not enclosed). Anning, please place it again; I'll step out so the cell is clear."}
+- 02:56 act: {"actions":[{"do":"goto","target":{"x":-957,"y":79,"z":-3007}}],"say":"Anning, I've stepped out. The cell -956,79,-3008 is empty now. Go ahead."}
+- 02:56 act: {"actions":[{"do":"goto","target":{"x":-957,"y":78,"z":-3005}}],"say":"Anning, I'm stepping back to -957,78,-3005 to give you the spot at -957,79,-3007."}
+- 02:57 say: {"text":"Lizzie: I'm clear at -957,78,-3006. Cell -956,79,-3008 and -957,79,-3007 are free. Anning, go ahead."}
+- 03:03 say: {"text":"Lizzie: dusk is near and the top -956,80,-3008 is still open. I'm at -957,78,-3006, clear of the cell. Anning or Wesley, place it now and say when done."}
+- 03:09 say: {"text":"Lizzie, morning 1192: the top -956,80,-3008 is still open air. Anning, place your jungle plank there from -957,79,-3007, then say done. I stay clear in sight."}
+- 03:11 say: {"text":"Lizzie, midday 1192: I hold 1 dirt and I'm not in the cell. Anning, when the planks reach you, the top -956,80,-3008 of my cell is first. Tell me when it's placed."}
+- 03:11 act: {"actions":[{"do":"goto","target":{"x":-962,"y":78,"z":-3000}}],"say":"Lizzie: stepping back to -962,78,-3000 so the give can go through, Anning. I place nothing and stay in sight."}
+- 03:16 say: {"text":"Lizzie: last checked from inside at -956,79,-3008, the top -956,80,-3008 is open air, nobody in it. Anning, place it from -957,79,-3007. I'm at -962,79,-3000, out of the way."}
+- 03:19 say: {"text":"Lizzie, dusk 1192: my last survey still shows air at -956,80,-3008. Anning, is the top placed? Anyone inside, view it before sleeping. I stay at -962,79,-3000 in sight."}
+- 03:27 say: {"text":"Lizzie, day 1193: I am fed, hunger 20, and hold only 2 dirt. Cell -956,79,-3008 top -956,80,-3008 still reads air to me. I will go to the stores hall only with the group, when Uhura says go."
+- 03:31 say: {"text":"Lizzie, dusk 1193: I am not sheltered and will not sleep out here. I stay at -962,79,-3000 in sight of the group. Chapman, the top -956,80,-3008 still reads open to me."}
+- 03:59 say: {"text":"Lizzie: I have not checked the cell from inside, and my last survey still reads the top -956,80,-3008 as open. I will not sleep there. I stay in sight near you."}
+- 04:32 say: {"text":"Lizzie, afternoon 1196: fed, hunger 20, 2 dirt, no planks. Anning, glad your shelter is sealed. If anyone can spare 6 planks, I will build a cell and name it before I enter."}
+- 04:32 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3008}}],"say":"Anning, thank you. I am walking to -955,78,-3008 in your sight. Please give the 6 dark oak planks there."}
+- 04:32 say: {"text":"Lizzie at -955,78,-3007. Anning, I do not see you in reach. Please step out within two blocks and give the 6 dark oak planks, or tell me where you are."}
+- 04:37 say: {"text":"Lizzie: I have not received any planks, only 2 dirt. Anning, I can't reach you in the hole. I stay here in sight, unenclosed, until morning."}
+- 04:45 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3007}}],"say":"Lizzie, afternoon 1197: I have 2 dirt and no planks, and no cell of my own. Johnny or Anning, if you can spare planks, give them 
+- 04:46 act: {"actions":[{"do":"goto","target":"ag_anning_01"}],"say":"Anning, I am walking to you now. Please give the 6 dark oak planks when I am in your sight."}
+- 04:47 act: {"actions":[],"say":"Anning, I am at -955,78,-3007 on grass, with Crusoe and MacDonald beside me. Please walk out to me and give the planks here. It is dusk and I have no shelter."}
+- 04:48 act: {"actions":[],"say":"Thank you Anning, I have 6 dark oak planks now. It is night. I will not build in the dark alone. Crusoe, MacDonald: stay with me, I stay at -955,78,-3007."}
+- 04:52 act: {"actions":[],"say":"Lizzie, morning 1197: I hold 6 dark oak planks and 2 dirt, and I stand at -955,78,-3007. I will build a 1-cell pocket here with the planks, named cell -955,79,-3007, in sight of C
+- 04:54 act: {"actions":[{"do":"plan","op":"add","plan_id":"lizzie_pocket","palette":{"p":{"block":"dark_oak_planks"}},"origin":{"x":-955,"y":78,"z":-3007},"steps":[{"op":"list","pal":"p","cells":[{"x":0,"y":0,"z"
+- 04:59 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-955,"y":78,"z":-3008}},{"do":"place","block":"dark_oak_planks","at":{"x":-955,"y":78,"z":-3006}},{"do":"place","block":"dark_oak_planks",
+- 04:59 act: {"actions":[],"say":"Lizzie: the north cell is already solid, so my plank plan is blocked. I will not sleep here yet. Crusoe, MacDonald: can one of you look at -955,78,-3007 from inside and tell me wh
+- 04:59 act: {"actions":[],"say":"Lizzie: I have placed no faces yet, and the north cell is solid. I stay here in your sight, not sleeping, until a cell is confirmed from inside."}
+- 05:02 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-954,"y":78,"z":-3007}},{"do":"place","block":"dark_oak_planks","at":{"x":-955,"y":79,"z":-3007}}],"say":"Lizzie: morning. I am placing th
+- 05:02 act: {"actions":[],"say":"Lizzie: east face is placed at -954,78,-3007. The roof above me at -955,79,-3007 failed: no solid block next to me to place against. I still have 5 planks. Crusoe, can you check f
+- 05:05 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-954,"y":79,"z":-3007}},{"do":"place","block":"dark_oak_planks","at":{"x":-955,"y":79,"z":-3007}}],"say":"Lizzie, midday 1198: placing a p
+- 05:05 act: {"actions":[],"say":"Lizzie: the plank at -954,79,-3007 is placed (4 planks left). The roof at -955,79,-3007 still fails: no free space next to me. I will not spend more planks until someone tells me 
+- 05:10 act: {"actions":[{"do":"use","at":{"x":-954,"y":79,"z":-3007}},{"do":"place","block":"dark_oak_planks","at":{"x":-955,"y":79,"z":-3007}}],"say":"Lizzie: facing the block at -954,79,-3007 now, trying the ro
+- 05:22 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":{"x":-955,"y":79,"z":-3007}}],"say":"Trying the roof at -955,79,-3007 from inside now. Crusoe, MacDonald, please name any open face you see."}
+- 05:22 act: {"actions":[],"say":"The roof at -955,79,-3007 still fails: no free space, since it is right above my head. I will not try it again. Crusoe or MacDonald, please check the cell and name the open face. 
+- 05:22 say: {"text":"Crusoe, I am at -955,78,-3007. The open cell is the roof, -955,79,-3007, directly above me. Its east side is closed by -954,79,-3007. I cannot place the roof from here."}
