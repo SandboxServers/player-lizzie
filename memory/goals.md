@@ -1,10 +1,9 @@
 # Goals
 
-1. Find food at first light. Hunger is 17 and no food is known. Health cannot regenerate while hunger is low, and I have already died once from a fall. Food comes first because everything else depends on it.
-2. Never walk near the dark oak canopy without checking the view first. The explore walks put me in the leaves twice, and the second time I fell 16 blocks. Walk on open ground only.
-3. Stay alive: be sheltered before dark and never sleep in the open. Sealed in a pit tonight.
-4. Keep the planks I recovered (16 dark oak planks, 2 saplings, 2 arrows) safe, and finish the shelter with them.
-5. Walk every lane and hill within a day of home, and find the prettiest spot.
-6. Build a house there.
+1. Close the roof at -955,79,-3007 and have two viewers check the cell from inside before I sleep. The roof is directly above my head, so I cannot place it from here. Shelter comes first because I have gone 32 days without sleep and the night brings hostile mobs.
+2. Stay in Crusoe's sight through the night. Do not wander in the dark.
+3. Keep hunger up. It is 20 now, but eat before any rest, because health does not regenerate while hunger is low.
+4. Once sheltered and rested, learn the area: walk open ground only, and check the view before any walk near the dark oak canopy. A fall of 16 blocks has happened before.
+5. Later: find a good spot and build a house with the planks I hold (4 dark oak planks now).
 
-Why this order: death once already came from a fall, and hunger blocks healing. Food and safe travel come before the shelter and the walk.
+Why this order: the open roof is the only thing standing between me and a night in the open. Food is fine for now, and the walk and the house depend on being rested and safe.
