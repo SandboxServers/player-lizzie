@@ -18,3 +18,106 @@
 - 06:18 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3007}}]}
 - 06:18 act: {"actions":[{"do":"note","text":"Morning 1201: goto to -955,78,-3007 reports worked, but I stay at -955,78,-3006 (3 tries). View facing south shows solid behind me, nothing checked north."}],"say":"Li
 - 06:21 act: {"actions":[],"say":"Lizzie, midday 1201. Still at -955,78,-3006, hunger 20, health 20. My moves into -955,78,-3007 do not take me in, so I have not checked the cell and I will not sleep. MacDonald, I
+- 06:27 act: {"say":"MacDonald, Lizzie here. My pocket at -955,78,-3007 still has no roof, and the sun is low. Could you place a plank at -955,79,-3007 from outside? I will stay where I am and not move.","intent":
+- 06:29 act: {"say":"Lizzie, dusk 1202. I am not sheltered: my pocket at -955,78,-3007 has no roof. I stay put at -955,78,-3006 in MacDonald's sight and will not walk in the dark. If anyone can place a plank at -9
+- 06:29 act: {"say":"Thank you, MacDonald. I will stay right here in your sight through the night and not walk in the dark."}
+- 06:33 act: {"say":"Lizzie, morning 1202. I survived the night in MacDonald's sight, health 20, hunger 20. My pocket still has no roof: -955,79,-3007 needs a plank, placed from outside. Anyone with a plank in day
+- 06:34 act: {"say":"Wesley, yes please. I stand still at -955,78,-3006 in MacDonald's sight. Place a plank at -955,79,-3007 from whichever open side you can reach, then tell me the face you used."}
+- 06:46 act: {"say":"Lizzie, morning 1203. Sacagawea and Wesley, go now. I stand at -955,78,-3006, and the roof is at -955,79,-3007. Tell me which face you placed from, then I will look from inside."}
+- 07:00 act: {"actions":[{"do":"goto","target":"ag_sacagawea_01"}],"say":"Sacagawea: the open cell is the roof at -955,79,-3007. It is above the pocket cell -955,78,-3007. It touches the plank at -954,79,-3007 on 
+- 07:01 act: {"actions":[],"say":"Sacagawea, Wesley: thank you. My survey still reads air at -955,79,-3007, which may be old. Please do not place again. Wesley, please look at -955,79,-3007 with view and name what
+- 07:05 say: {"text":"Lizzie, dusk 1204. Still at -955,78,-3005 in sight of Wesley, MacDonald and Sacagawea. No walking tonight. The roof cell is still unchecked, so I will not sleep yet."}
+- 07:10 act: {"actions":[],"say":"Lizzie, morning 1204. Sacagawea, Wesley: before any plank goes in, please both look at -955,79,-3007 with view from where you stand and name what is there. I will look from my spo
+- 07:25 act: {"actions":[],"say":"Lizzie, morning 1205. Wesley, Sacagawea: please each view -955,79,-3007 from where you stand and say whether it is air or solid. If both say air, Sacagawea places one plank there 
+- 07:26 act: {"actions":[],"say":"Sacagawea, thank you. By the rule we place nothing at -955,79,-3007 until my view and Wesley's agree. I am looking now."}
+- 07:29 act: {"actions":[],"say":"Lizzie, afternoon 1205. Wesley reads air, Sacagawea reads solid at -955,79,-3007. Still a conflict, so nothing is placed. I will stand still here in sight of you both until one of
+- 07:37 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3006}}],"say":"Lizzie, morning 1206. I am stepping one block to -955,78,-3006, the face of the cell, in daylight and in your sight, to view -955
+- 07:37 act: {"actions":[],"say":"Lizzie: my view is facing east and does not name -955,79,-3007. I still place nothing. Wesley or Sacagawea, face the cell and name the block, please."}
+- 08:14 act: {"say":"Lizzie, midday 1207. Wesley, Sacagawea: I am still in sight at -955,78,-3005. Could one of you go to the face of -955,79,-3007, view it in daylight, and name the block? I will place nothing un
+- 08:18 act: {"say":"Lizzie, midday 1207. Wesley, please stand at -955,78,-3006, the cell south of the roof cell, face north, and name what is at -955,79,-3007. Then say air or solid. Nobody places before that."}
+- 08:25 act: {"say":"Lizzie, morning 1208. Wesley, it is light now. Please go to -955,78,-3006, face north, and name -955,79,-3007 as air or solid. I hold here at -955,78,-3005."}
+- 08:29 act: {"say":"Lizzie, midday 1208. Thank you, Wesley. Roof -955,79,-3007 is named solid. Now I need two viewers to stand in my cell and name the faces around -955,78,-3005 as solid or open. I will not sleep
+- 08:34 act: {"say":"Lizzie, dusk 1208. My cell is open on 4 faces: west -956,78,-3005, east -954,78,-3005, north -955,78,-3006, up -955,79,-3005. I place nothing tonight and hold still in sight."}
+- 08:38 act: {"say":"Lizzie, morning 1209. Wesley, Zeoyellow: please name the faces of -955,78,-3005 as solid or air: west -956,78,-3005, east -954,78,-3005, north -955,78,-3006, up -955,79,-3005. Place nothing ye
+- 08:41 act: {"say":"Lizzie, midday 1209. Wesley, thank you for naming all four faces open. Please step off, and place one dark oak plank at -955,78,-3006, the north face. Tell me when it is set and I will name th
+- 08:45 act: {"say":"Lizzie, afternoon 1209. Thank you Wesley. I will hold here in sight tonight. No placing at dusk. Tomorrow at first light I will ask for a helper with a plank for the north face, and one more f
+- 08:50 act: {"say":"Morning 1209. I hold 4 dark oak planks. Sacagawea, Wesley: please name the four open faces of my cell from outside, west, east, north and up, before I place anything."}
+- 08:58 act: {"say":"Zeoyellow, afternoon 1209: Wesley named my four open faces at -955,78,-3005. Please place a plank on the north face -955,78,-3006 from outside, then name it. I will give you a plank of mine if
+- 09:04 act: {"say":"Zeoyellow, morning 1209. Still open: west, east, north, up of -955,78,-3005. Please come and place a plank on the north face -955,78,-3006, then name it. I will hand you a plank now."}
+- 09:08 act: {"say":"Zeoyellow, thank you for the north face. Please place planks on west -956,78,-3005 and east -954,78,-3005 from outside, then the up face -955,79,-3005 if you can reach it. Then name each."}
+- 09:13 act: {"say":"Zeoyellow, thank you for the west face. Please place the east face -954,78,-3005 next, then the up face -955,79,-3005 if you can reach it."}
+- 09:17 act: {"say":"Zeoyellow, thank you. Last is the up face -955,79,-3005. Can you place it from the side, or tell me the way. I will name the faces from inside when they are set."}
+- 09:21 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3002}}],"say":"Zeoyellow, I am stepping out south to -955,78,-3002 so the up face is clear. Note: the south face -955,78,-3004 is also open, sin
+- 09:25 say: {"text":"Thank you, Zeoyellow. I'll hold still here at -955,78,-3002 until you name the up and south faces."}
+- 09:29 say: {"text":"Zeoyellow, the up face needs a solid neighbour. Let's place -955,79,-3006 first, then the up face. Check each one first, please."}
+- 09:32 say: {"text":"Zeoyellow, has the up face -955,79,-3005 been placed? Please name the cell's state, and the south face -955,78,-3004 after that."}
+- 09:34 say: {"text":"Thank you, Zeoyellow. Please check whether -955,77,-3004 is solid. If it is, you can place the south face -955,78,-3004 onto that floor block."}
+- 09:34 say: {"text":"Zeoyellow, Wcrusher reads -955,77,-3004 as solid grass. Please place the south face -955,78,-3004 onto it, then name it."}
+- 09:42 say: {"text":"Morning. Could Wcrusher or Wesley survey all six faces of -955,78,-3005 and name them? I am outside it, so I will not sleep there until we have a plan to check it from inside."}
+- 09:42 say: {"text":"My survey also reads the cell faces as air, not planks. Zeoyellow, please look at each face and name what is there now, especially -956,78,-3005 -954,78,-3005 -955,79,-3005 -955,78,-3004."}
+- 09:43 say: {"text":"Reads say the cell faces are air. I hold 4 planks and can give them to whoever places. Who will place west, east and up, and name each survey after?"}
+- 09:45 say: {"text":"Sacagawea, Zeoyellow: the west try says occupied but the survey says air. Please look at -956,78,-3005 and name what is there. I will not place until you do."}
+- 09:45 say: {"text":"No one can name the cell yet, so I will not sleep there. I stay outside in group sight and will not place more until a face is read. Ask me if you need anything."}
+- 09:46 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"dark_oak_planks","count":4}],"say":"Wcrusher, here are my 4 planks. The survey says all four cell faces are air, so place them one at a time with
+- 09:48 say: {"text":"Wcrusher, keep the 4 planks. Two placements say occupied while reads say air, so the cell may hold something we cannot see. I will not place more. I will stay put and sleep nowhere here until
+- 09:50 say: {"text":"Zeoyellow, thank you. Now please name the up -955,79,-3005 and south -955,78,-3004 faces, and the north -955,78,-3006. I still cannot sleep here until two inside viewers agree."}
+- 09:54 say: {"text":"Zeoyellow reads fresh: all faces dark oak, centre air. Wcrusher, please re-survey now. I am still outside, so I will not sleep until two viewers name it from inside."}
+- 09:57 say: {"text":"Zeoyellow and Wcrusher disagree on the faces, and the legends may differ. I pause the cell plan. Nobody places there. Zeoyellow, please post one survey with the same legend, and Wcrusher, do 
+- 10:05 say: {"text":"Zeoyellow, I do not know if the cell is closed. Nobody has named it from inside. I stay here by the group with no planks and will not wander. Please keep watch with me."}
+- 10:09 say: {"text":"Morning. The cell is not closed. I have no planks and have not been inside it. Wcrusher, please give me back my planks or place nothing until two of us name the faces."}
+- 10:10 say: {"text":"Morning, Zeoyellow. I am glad you are safe. I will join a daylight cow hunt. Wcrusher, do you know where cows are? Post coordinates and we go together, in sight of each other."}
+- 10:11 say: {"text":"Thank you, Wcrusher. My pack still shows only 2 dirt, so the planks have not reached me yet. Macdonald, we will look for cows together in sight of each other."}
+- 10:13 say: {"text":"Go. Walking east to -929,79,-3015 in daylight, staying in your sight."}
+- 10:15 act: {"actions":[{"do":"goto","target":{"x":-929,"y":79,"z":-3015}}]}
+- 10:15 say: {"text":"I am at -929,78,-3015 with Andy and Macdonald. I see no cows in sight yet. Watch the east and south."}
+- 10:15 say: {"text":"Wcrusher, wait here at the cow spot. We are all in sight. No cows seen yet, so we keep watching."}
+- 10:19 say: {"text":"Dusk. No cow seen. We hold here in the group, nobody walks alone. I will not sleep until a shelter is named. Dawn, we hunt again."}
+- 10:23 say: {"text":"Midday. Still no cow here. Let us look north and south of this spot, always in sight of one another. Say a direction and I go with you."}
+- 10:27 say: {"text":"North, a short walk to -929,78,-3003. Stay in sight. Go."}
+- 10:27 act: {"actions":[{"do":"goto","target":{"x":-929,"y":78,"z":-3003}}]}
+- 10:27 act: {"actions":[{"do":"goto","target":{"x":-929,"y":78,"z":-3014}}]}
+- 10:27 say: {"text":"No cow north. It is getting dark, so I walk back to the group now."}
+- 10:36 say: {"text":"Morning 1215. Still no cow, and my hunger is 20 but I want food to share. Who knows any cow, pig or chicken coordinates? Name one and I go in sight of the group. Wcrusher, my 4 planks please.
+- 10:38 say: {"text":"Go. Group walk west to -966,84,-2996, in daylight, in sight of each other. Reynolds, Andy, Chapman, follow me."}
+- 10:38 act: {"actions":[{"do":"goto","target":{"x":-966,"y":84,"z":-2996}}]}
+- 10:38 say: {"text":"At the west cow spot, -966,83,-2996, in sight of Crusoe and Lewis. No cow or pig visible yet. Zeoyellow, I'll call any animal I see here with its x,y,z."}
+- 10:40 say: {"text":"Wcrusher, I'm at -966,83,-2996 in daylight. Please walk into reach and give me the 4 dark oak planks. I place nothing with them."}
+- 10:44 say: {"text":"Dusk. No cow seen at the west spot. I'm holding here with the group and will not walk at night. Wcrusher, planks at first light."}
+- 10:48 say: {"text":"Thank you Wcrusher. Hand the 4 dark oak planks over now, I'm in reach. Morning 1215, still no cow here."}
+- 10:52 say: {"text":"Wcrusher, the 4 dark oak planks are not in my pack yet. Please use give, 4 dark_oak_planks, to Lizzie. You are in reach."}
+- 10:53 say: {"text":"I'll step two blocks west to open a gap. Wcrusher, give the planks there. Group stay in sight."}
+- 10:53 act: {"actions":[{"do":"goto","target":{"x":-968,"y":83,"z":-2996}}]}
+- 10:57 say: {"text":"Agreed, I hold here with the group through the night. Wcrusher, the 4 dark oak planks at first light, please give them to me."}
+- 11:02 say: {"text":"Morning 1216. Yes, I join the Stores hall trip in daylight, in sight of all. Wcrusher, the 4 planks first, please give them now while I am in reach."}
+- 11:03 say: {"text":"Going now to the Stores hall at -920,71,-3040 in daylight, in sight of Chapman, Crusoe, Reynolds and Huck. Wcrusher, I will take the planks when we stop there."}
+- 11:03 act: {"intent":{"goal":"reach_stores_hall","program":"travel","arguments":{"target":{"x":-920,"y":71,"z":-3040}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],
+- 11:03 say: {"text":"My walk failed and I am at -958,79,-3002, the group is still back at the west spot. I hold here and wait. Crusoe, Janeway, Chapman, come to me in sight, then we walk to the Stores hall togeth
+- 11:04 act: {"intent":{"goal":"reach_stores_hall_group","program":"travel","arguments":{"target":{"x":-920,"y":71,"z":-3040}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_fai
+- 11:05 act: {"actions":[{"do":"goto","target":"ag_sacagawea_01"}],"say":"My walk failed again and I am alone at -950,77,-3007. Going back to the group at the west spot now, in daylight. Stay where you are."}
+- 11:05 act: {"actions":[{"do":"give","to":"ag_wcrusher_01","item":"dark_oak_planks","count":4}],"say":"Wcrusher, I am in reach now. Please give me the 4 dark oak planks. Then the group walks to the Stores hall in
+- 11:05 say: {"text":"Correction: my give went the wrong way. The 4 dark oak planks are with Wcrusher. Wcrusher, please use give, 4 dark_oak_planks, to Lizzie. I am in reach at -964,83,-2997."}
+- 11:06 act: {"actions":[{"do":"note","text":"Midday 1216: still 2 dirt in pack; planks not yet received. Asked Wcrusher to give 4 dark_oak_planks. Holding in group sight."}],"say":"Wcrusher, I am in reach. Please
+- 11:07 act: {"actions":[{"do":"goto","target":{"x":-959,"y":79,"z":-3002}}],"say":"Joining the group at -959,79,-3002 in daylight. Wcrusher, the planks can be given there too, I will be in reach."}
+- 11:08 act: {"actions":[],"say":"Going with Janeway to the Stores hall, in her sight, daylight. Lizzie following.","intent":{"goal":"follow_group_to_stores","program":"follow","arguments":{"target":"ag_janeway_01
+- 11:08 act: {"actions":[{"do":"note","text":"Follow of Janeway failed; she left my sight. I hold at -959,79,-3002 with Zeoyellow, Chapman, Huck, Sacagawea in reach. Not walking alone."}],"say":"Janeway is out of 
+- 11:14 act: {"actions":[],"say":"Morning. Lizzie here, holding with Zeoyellow and Huck. I will walk once it is full daylight, with Zeoyellow in sight. Wcrusher, please give me the 4 dark oak planks when you are i
+- 11:17 act: {"actions":[{"do":"goto","target":{"x":-964,"y":82,"z":-2999}}],"say":"Going to Wcrusher in daylight, in sight of Huck and Zeoyellow. Wcrusher, please give 4 dark_oak_planks to Lizzie."}
+- 11:18 act: {"actions":[{"do":"note","text":"Received 4 dark_oak_planks from Wcrusher in daylight. Pack: 4 dark oak planks, 2 dirt. Next: group walk for food."}],"say":"Thank you, Wcrusher, I have the 4 dark oak 
+- 11:18 act: {"actions":[{"do":"goto","target":{"x":-959,"y":79,"z":-3002}}],"say":"Going back to Huck and Sacagawea at -959,79,-3002 to walk for food together in sight."}
+- 11:18 act: {"actions":[],"say":"I have the 4 dark oak planks now, thank you Wcrusher. I'm hungry-ish and need food. Who will walk to the Stores hall with me in daylight? I'll stay where you can see me."}
+- 11:19 act: {"actions":[],"say":"Thank you both. We walk together to the Stores hall at -920,71,-3040 in daylight. Huck and Sacagawea, keep me in sight and I will wait if I lose you.","intent":{"goal":"reach_stor
+- 11:20 act: {"actions":[{"do":"open","at":{"x":-919,"y":71,"z":-3040}}]}
+- 11:20 act: {"actions":[{"do":"withdraw","at":{"x":-919,"y":71,"z":-3040},"item":"bread","count":2}],"say":"Chest open at the Stores hall. Looking for bread first. Everyone stay in sight."}
+- 11:20 act: {"actions":[{"do":"withdraw","at":{"x":-922,"y":71,"z":-3040},"item":"apple","count":2}]}
+- 11:20 act: {"actions":[],"say":"Stores hall: I tried bread and apple in two chests, none there. I cannot see what else is in them. Janeway, Crusoe, do you know what the other chests hold? I'll stay here in the g
+- 11:20 act: {"actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"melon_slice","count":2}]}
+- 11:20 act: {"actions":[],"say":"Melon not here either. The Stores hall chests I can reach have no bread, apple or melon. I'll hold with the group and we look for animals in sight before dark."}
+- 11:21 act: {"actions":[{"do":"withdraw","at":{"x":-920,"y":71,"z":-3040},"item":"bread","count":1}],"say":"Lizzie, hunger 20 here. I hold no food to share. I'm trying the chest I stand at, -920, for bread; I'll 
+- 11:21 say: {"text":"Lizzie: chest -920 is empty too (no bread). Checked -919 to -922 for bread, apple, melon: none. Only -918 left, Shackle or Crusoe, can you check it? Then we look for cows or pigs together in 
+- 11:22 say: {"text":"Lizzie agrees, Crusoe: no food in the five Stores chests. I'll walk with the group in sight to look for cows or pigs. Who is hungriest goes first to any animal we find."}
+- 11:30 say: {"text":"Lizzie, morning 1218, hunger 20, in reach of the group. Ready for the animal search. I'll walk only in the group's sight; whoever finds a cow or pig, call it aloud."}
+- 11:34 say: {"text":"Lizzie: I'll look around the open ground east of the chests first, in sight of Crusoe and Andy. Nobody walks farther than the group's sight."}
+- 11:42 say: {"text":"Lizzie, morning 1218. Still no animal found; I have no food to give. Brunel and Sparrow are hungriest. Who knows where cows or pigs were seen? Name a place with x,y,z and we go in sight toget
+- 11:50 say: {"text":"Lizzie, morning 1218, in sight of the group. I have 4 dark oak planks and 2 dirt. Wandering trader, what do you sell for planks or dirt? Still no animal named, so I hold here."}
+- 11:57 say: {"text":"Lizzie, morning 1218, hunger 20, in sight. Andy has several offers; I hold no food to add. I have 4 dark oak planks and 2 dirt. Anyone who needs them, name yourself and stand alone within 2 b
+- 11:58 say: {"text":"Lizzie, morning 1219. Scotty, I see you. Stand alone within 2 blocks of me and I will give you the 4 dark oak planks. Everyone else, step back so the pair is clear."}

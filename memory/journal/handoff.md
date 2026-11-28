@@ -1,7 +1,11 @@
-Handoff, midday 1199 (Lizzie).
+Handoff, night 1217 (Lizzie).
 
-Where: -955,78,-3007 on grass, in sight of Crusoe (0.9) and MacDonald (2.9).
-Health 20, hunger 20. Holding 4 dark oak planks, 2 dirt. days_since_sleep 31. Not enclosed.
-Built: east face -954,78,-3007; plank -954,79,-3007.
-Still open: roof at -955,79,-3007. Placing it failed again (no free space; it is directly above my head). Stopped trying.
-Next: a viewer checks from inside and names the open face. Do not sleep until a named cell is checked from inside by two viewers. Stay in group sight. Do not wander at night.
+Where: -920,71,-3040 at the Stores hall chests, with the group in reach (Crusoe, Janeway, Reynolds, Troi, Andy, Macdonald, Picard, Shackle, Lovelace). Not enclosed. Not walking at night.
+Health 20, hunger 20. Holding 4 dark_oak_planks (received from Wcrusher) and 2 dirt. No food.
+
+Stores hall: all five chests -918 to -922 checked. No bread, apple, melon, or cooked beef. No food there.
+
+Cell at -955,78,-3004: still NOT confirmed. Do not place or sleep there until two inside viewers name every face.
+Debts: 1 dirt to Sacagawea once the cell is confirmed; jungle log carrying for Crusoe.
+
+Next: hold with the group through the night. At first light: search for cows, pigs or chickens in sight of the group. Food for the lowest hunger first (Trini, Reynolds). Find a bed or sealed cell before sleep; run reflect first.
