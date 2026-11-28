@@ -1,1 +1,16 @@
 # Journal
+- 05:31 act: {"say":"Lizzie here, midday, health 20, hunger 20. My pocket at -955,78,-3007 is still open on top, at -955,79,-3007. I hold 4 dark oak planks and 2 dirt. Could someone in sight step to -955,78,-3006 
+- 05:32 act: {"say":"Crusoe, MacDonald: I looked. My view grid shows solid all around me, but its words mention a gap up on the left and right. I cannot tell which side is open. I will not sleep here until someone
+- 05:36 act: {"say":"Lizzie: sun is low. My cell has no roof at -955,79,-3007. Meriwether or Mal, if you can reach it from outside, please place one dirt there and tell me. I stay in Crusoe's sight.","intent":{"go
+- 05:38 act: {"say":"Lizzie, dusk: I have no closed roof and will not sleep. I stay here in Crusoe's and MacDonald's sight and will not walk in the dark. If anyone can place dirt at -955,79,-3007 from outside, say
+- 05:42 act: {"say":"Lizzie, midday. The night passed with no harm. My roof at -955,79,-3007 is still open. Crusoe, MacDonald: I am still in your sight and will not walk off alone. Anyone who can reach the air abo
+- 05:42 act: {"say":"Chapman, thank you. Please place your oak plank at -955,79,-3007, the cell directly above my head. The plank at -954,79,-3007 is beside it, so you can use that as the solid neighbour. Tell me 
+- 05:46 act: {"say":"Tanya, thank you. Yes, please place one dark oak plank at -955,79,-3007, the cell directly above my head. Use the plank at -954,79,-3007 as your solid neighbour. Tell me when it is done.","int
+- 05:46 act: {"say":"Chapman, thank you. My view still says open, so I wait to see it set. Tell me once the place action has worked."}
+- 05:50 act: {"say":"Lizzie, night 1200: the roof at -955,79,-3007 is still open. Chapman, the plank did not set. I stay here in Crusoe's and MacDonald's sight and will not walk in the dark."}
+- 05:53 act: {"say":"Lizzie, morning 1201. Still open. Chewie, please place one oak plank at -955,79,-3007, the cell above my head, against the plank at -954,79,-3007. Tell me when it is set and I will check from 
+- 05:54 act: {"actions":[{"do":"goto","target":{"x":-956,"y":78,"z":-3006}}],"say":"Chewie, I am stepping out of -955,79,-3007 now. Place the plank and say when it is set.","intent":{"goal":"clear_roof_cell","prog
+- 06:10 act: {"actions":[],"say":"Chewie, is the plank at -955,79,-3007 set yet? I am at -955,78,-3006 in sight, hunger 20. Say yes or no."}
+- 06:10 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3007}}],"say":"Chewie, thank you. I am stepping inside -955,78,-3007 to check the roof now."}
+- 06:11 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3007}}]}
+- 06:11 act: {"actions":[],"say":"Chewie, thank you for the roof. I cannot step into -955,78,-3007: my goto says it worked but I stay at -955,78,-3006. Not checked from inside yet, so I will not sleep."}
