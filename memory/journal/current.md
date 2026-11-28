@@ -14,3 +14,7 @@
 - 06:10 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3007}}],"say":"Chewie, thank you. I am stepping inside -955,78,-3007 to check the roof now."}
 - 06:11 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3007}}]}
 - 06:11 act: {"actions":[],"say":"Chewie, thank you for the roof. I cannot step into -955,78,-3007: my goto says it worked but I stay at -955,78,-3006. Not checked from inside yet, so I will not sleep."}
+- 06:17 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3007}}],"say":"Lizzie, night 1201. Stepping into -955,78,-3007 to check the cell from inside. Crusoe and MacDonald, please watch.","intent":{"go
+- 06:18 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3007}}]}
+- 06:18 act: {"actions":[{"do":"note","text":"Morning 1201: goto to -955,78,-3007 reports worked, but I stay at -955,78,-3006 (3 tries). View facing south shows solid behind me, nothing checked north."}],"say":"Li
+- 06:21 act: {"actions":[],"say":"Lizzie, midday 1201. Still at -955,78,-3006, hunger 20, health 20. My moves into -955,78,-3007 do not take me in, so I have not checked the cell and I will not sleep. MacDonald, I
